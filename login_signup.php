@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -31,7 +33,7 @@
                     <label>Password</label>
                     <i class='bx bxs-lock-alt' ></i>
                 </div>
-                <button type = "submit" class ="btn animation" style="--i:3; --j:24;">Login</button>
+                <button type ="submit" class ="btn animation" style="--i:3; --j:24;">Login</button>
                 <div class="logreg-link animation" style="--i:4; --j:25;">
                     <p>Don't have an account? <a href="#" class="register-link">Sign Up</a></p>
                 </div>
@@ -44,19 +46,19 @@
 
         <div class="form-box register">
             <h2 class="animation"  style="--i:17;  --j:0;">Sign Up</h2>
-            <form action="#">
+            <form action="process-signup.php" method="post">
                 <div class="input-box animation"  style="--i:18;  --j:1;">
-                    <input type="text" required>
+                    <input type="text" required name="userName">
                     <label>Username</label>
                     <i class='bx bxs-user'></i>
                 </div>
                 <div class="input-box animation" style="--i:19;  --j:2;">
-                    <input type="text" required>
+                    <input type="text" required name="email">
                     <label>Email</label>
                     <i class='bx bxs-envelope'></i>
                 </div>
                 <div class="input-box animation" style="--i:20;  --j:3;">
-                    <input type="password" required>
+                    <input type="password" required name="password">
                     <label>Password</label>
                     <i class='bx bxs-lock-alt' ></i>
                 </div>

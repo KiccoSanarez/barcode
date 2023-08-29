@@ -34,7 +34,7 @@ body{
 .sidebar .logo-details i{
     font-size: 28px;
     font-weight: 500;
-    color: #fff;
+    color: #0A2558;
     min-width: 60px;
     text-align: center;
 }
@@ -43,6 +43,10 @@ body{
     font-size: 24px;
     font-weight: 500;
     color: #fff;
+}
+
+.sidebar .logo-details .span{
+    color: #0ef;
 }
 
 .sidebar .nav-links{

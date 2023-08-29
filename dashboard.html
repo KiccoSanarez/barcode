@@ -10,69 +10,88 @@
 </head>
 <body>
 
-    <header class="header">
-        <h1><span>Bar</span>Code</h1>
-    </header>
-
-    <div class="wrapper">
-        <span class="bg-animate"></span>
-        <span class="bg-animate2 "></span>
-
-        <div class="form-box login">
-            <h2 class="animation" style="--i:0; --j:21;">Login</h2>
-            <form action="#">
-                <div class="input-box animation" style="--i:1; --j:22;">
-                    <input type="text" required>
-                    <label>Username</label>
-                    <i class='bx bxs-user'></i>
-                </div>
-                <div class="input-box animation" style="--i:2; --j:23;">
-                    <input type="password" required>
-                    <label>Password</label>
-                    <i class='bx bxs-lock-alt' ></i>
-                </div>
-                <button type = "submit" class ="btn animation" style="--i:3; --j:24;">Login</button>
-                <div class="logreg-link animation" style="--i:4; --j:25;">
-                    <p>Don't have an account? <a href="#" class="register-link">Sign Up</a></p>
-                </div>
-            </form>
+    <div class="sidebar">
+        <div class="logo-details">
+            <i class='bx bxs-barcode'></i>
+            <span class="logo_name">BarCode</span>
         </div>
-        <div class="info-text login">
-            <h2 class="animation" style="--i:0;  --j:20;">Welcome to BarCode</h2>
-            <p class="animation" style="--i:1;  --j:21;">Barangay Information Management System</p>
-        </div>
-
-        <div class="form-box register">
-            <h2 class="animation"  style="--i:17;  --j:0;">Sign Up</h2>
-            <form action="#">
-                <div class="input-box animation"  style="--i:18;  --j:1;">
-                    <input type="text" required>
-                    <label>Username</label>
-                    <i class='bx bxs-user'></i>
-                </div>
-                <div class="input-box animation" style="--i:19;  --j:2;">
-                    <input type="text" required>
-                    <label>Email</label>
-                    <i class='bx bxs-envelope'></i>
-                </div>
-                <div class="input-box animation" style="--i:20;  --j:3;">
-                    <input type="password" required>
-                    <label>Password</label>
-                    <i class='bx bxs-lock-alt' ></i>
-                </div>
-                <button type = "submit" class ="btn animation" style="--i:21;  --j:4;">Sign Up</button>
-                <div class="logreg-link animation" style="--i:22;  --j:5;">
-                    <p>Already have an account? <a href="#" class="login-link">Log In</a></p>
-                </div>
-            </form>
-        </div>
-        <div class="info-text register">
-            <h2 class="animation" style="--i:17; --j:0;">Welcome to BarCode</h2>
-            <p class="animation"style="--i:18; --j:1;">Barangay Information Management System</p>
-        </div>
+        <ul class="nav-links">
+            <li>
+                <a href="#">
+                    <i class='bx bxs-info-circle'></i>
+                    <span class="link_name">Barangay Information</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bxs-group'></i>
+                    <span class="link_name">Barangay Officials</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bxs-user-rectangle'></i>
+                    <span class="link_name">Residents</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bxs-collection'></i>
+                    <span class="link_name">Records</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bxs-file'></i>
+                    <span class="link_name">Files</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bxs-edit'></i>
+                    <span class="link_name">Certificates</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bxs-calendar-alt'></i>
+                    <span class="link_name">Reports</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bxs-image'></i>
+                    <span class="link_name">Released Reports</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-power-off'></i>
+                    <span class="link_name">Log Out</span>
+                </a>
+            </li>
+        </ul>
     </div>
-    
-    <script src="script.js"></script>
+
+    <section class="home-section">
+        <nav>
+            <div class="sidebar-button">
+                <i class='bx bx-menu sidebarBtn'></i>
+                <span class="dashboard">Brgy Info</span>
+            </div>
+            <div class="search-box">
+                <input type="text" placeholder="Search">
+                <i class='bx bx-search-alt-2'></i>
+            </div>
+            <div class="profile-details">
+                <img src="img/applogo.png" alt="">
+                <span class="admin_name">Zane Philip Cera</span>
+                <i class='bx bxs-chevron-down'></i>
+            </div>
+        </nav>
+    </section>
+
+<script src="script.js"></script>
 
 </body>
 </html>

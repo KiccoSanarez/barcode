@@ -1,10 +1,7 @@
-const wrapper = document.querySelector('.wrapper');
-const registerLink = document.querySelector('.register-link');
-const loginLink = document.querySelector('.login-link');
+let sidebar = document.querySelector(".sidebar");
+let sidebarBtn = document.querySelector(".sidebarBtn");
 
-registerLink.onclick = () => {
-    wrapper.classList.add('active');
-}
-loginLink.onclick = () => {
-    wrapper.classList.remove('active');
+
+sidebarBtn.onclick = function(){
+    sidebar.classList.toggle("active");
 }

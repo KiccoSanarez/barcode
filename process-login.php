@@ -31,7 +31,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         if (password_verify($password, $user['password'])) {
             // Correct password, set session and redirect to welcome page
             $_SESSION['user_id'] = $user['id'];
-            header('Location: dashboard.php');
+            header('Location: welcome.php');
             exit();
         } else {
             echo "Incorrect password.";
